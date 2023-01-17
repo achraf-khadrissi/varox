@@ -1,0 +1,38 @@
+h1 {
+  font-family: "La Belle Aurore", cursive;
+  text-align: center;
+  margin-bottom: -10px;
+  font-size: 4em;
+}
+li a {
+  text-decoration: none;
+  width: 100px;
+
+  color: #540375;
+}
+li {
+  list-style-type: none;
+  background-color: #ff7000;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "La Belle Aurore", cursive;
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 5px;
+}
+li a:hover {
+  background-color: #ffbf00;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.5);
+  border-radius: 10px;
+}
+body {
+  background-color: #10a19d;
+}
+.langue {
+  flex-direction: column;
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+}

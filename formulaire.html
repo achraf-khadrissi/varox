@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formulaire.css" />
+  </head>
+  <body>
+    <h1>formulaire de paiement</h1>
+    <div class="principale">
+      <form>
+        <div class="secondaire">
+          <h2>BILLING ADDRESS</h2>
+          <div>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" placeholder="achraf tazi" />
+          </div>
+          <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="Example@Example.Com" />
+          </div>
+          <div>
+            <label for="name">Address:</label>
+            <input type="text" id="name" placeholder="Room-Streer-Locatily" />
+          </div>
+          <div>
+            <label for="City">City:</label>
+            <input type="text" id="City" placeholder="Casablanca" />
+          </div>
+          <div class="cc">
+            <div class="mm">
+              <label for="state">state:</label>
+              <input type="text" id="state" placeholder="Morocco" class="vv" />
+            </div>
+            <div class="mm nn">
+              <label for="ZIP">Zip Code</label>
+              <input type="number" id="Zip" placeholder="123 456" class="vv" />
+            </div>
+          </div>
+        </div>
+        <div class="secondaire">
+          <h2>payment</h2>
+          <div>
+            <label for="cards">Accepted Cards:</label>
+            <img src="./Capture d’écran 2022-12-09 002317.png" alt="" />
+          </div>
+          <div>
+            <label for="card">Name On Card:</label>
+            <input type="text" id="card" placeholder="Mr.Achraf Tazi" />
+          </div>
+          <div>
+            <label for="Credit">Credit Card Number:</label>
+            <input
+              type="number"
+              id="Credit"
+              placeholder="1111-2222-3333-4444"
+            />
+          </div>
+          <div>
+            <label for="exp">Exp Month:</label>
+            <input type="text" id="exp" placeholder="junuary" />
+          </div>
+          <div class="cc">
+            <div class="mm">
+              <label for="Years" class>Exp Years:</label>
+              <input
+                type="number"
+                id="Years"
+                max="4"
+                min="4"
+                placeholder="2022"
+                class="vv"
+              />
+            </div>
+            <div class="mm nn">
+              <label for="CVV">CVV:</label>
+              <input
+                type="number"
+                id="CVV"
+                max="4"
+                min="4"
+                placeholder="1234"
+                class="vv"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+      <button>Proceed To Checkout</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: black;
+        }
+
+        .gallery {
+            position: relative;
+            width: 400px;
+            height: 300px;
+            transform-style: preserve-3d;
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: perspective(1200px) rotateY(Odeg);
+            }
+
+            to {
+                transform: perspective(1200px) rotateY(360deg)
+            }
+        }
+
+        .gallery span {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-origin: center;
+            transform-style: preserve-3d;
+            transform: rotateY(calc(var(--i) * 45deg)) translatez(380px);
+        }
+
+        .gallery span img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        span button {
+            height: 500px;
+            width: 300px;
+            background-repeat: no-repeat;
+            color: white;
+            font-size: 50px;
+        }
+
+        button div {
+            background-size: cover;
+            height: 500px;
+            width: 300px;
+        }
+
+        h1 {
+            color: gold;
+            text-shadow: rgb(255, 255, 255) 5px 5px 5px;
+        }
+
+        button {
+            border-radius: 30px;
+        }
+
+        .l {
+            margin-left: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="l"><a href="./projet1.html">
+                    <button style="  background-color:rgb(82, 65, 34);
+          color:white; ">home</button>
+                </a></td>
+            <td>
+                <h1>les chambre d'hôtel MARHABA</h1>
+            </td>
+        </tr>
+    </table>
+
+
+    <div class="gallery">
+        <span style="--i:1"> <a href="#"></a>
+            <button>
+                <div style="background-image:url(room1.png) ;"></div>
+            </button></a></span>
+        <span style="--i:2"> <a href="#">
+                <button>
+                    <div style="background-image:url(room2.png) ;"></div>
+                </button></a></span>
+        <span style="--i:3"><a href="#" alt="">
+                <button>
+                    <div style="background-image:url(room3.png) ;"></div>
+                </button></a> </span>
+        <span style="--i:4"><a href="#">
+                <div><button style="  background-color:rgb(64, 55, 35);
+            color:white; ">autres chambres:</button></div>
+            </a>
+        </span>
+
+        <span style="--i:5"> <a href="#" alt="">
+                <button>
+                    <div style="background-image:url(room4.png) ;"></div>
+                </button></a> </span>
+        <span style="--i:6"> <a href="#" alt="">
+                <button>
+                    <div style="background-image:url(room5.png) ;"></div>
+                </button></a> </span>
+        <span style="--i:7"> <a href="#" alt="">
+                <button>
+                    <div style="background-image:url(./room6.png) ;"></div>
+                </button></a> </span>
+        <span style="--i:8"> <a href="#" alt="">
+                <button>
+                    <div style="background-image:url(./hôtel1.png) ;"></div>
+                </button></a> </span>
+        <span style="--i:9"> <a href="#" alt="">
+                <button>
+                    <div style=" background-image:url(./room3.png);">
+                </button></a> </span>
+    </div>
+    </div><br><br><br><br>
+</body>
+
+</html>

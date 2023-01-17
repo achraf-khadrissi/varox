@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+body {
+  background-color: bisque;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #3c1cba;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: "La Belle Aurore", cursive;
+}
+form {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  flex-direction: row;
+  margin: 10px;
+  padding: 0;
+}
+.principale {
+  box-shadow: 6px 6px 28px -1px black;
+  width: 700px;
+  height: 600px;
+  margin: 100px auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+label {
+  display: block;
+  padding: 10px 0 10px 0;
+}
+.cc {
+  display: flex;
+}
+input {
+  width: 300px;
+  height: 30px;
+}
+.secondaire {
+  margin-left: 20px;
+}
+.vv {
+  width: 140px;
+}
+.mm {
+  display: flex;
+  flex-direction: column;
+}
+.nn {
+  margin-left: 10px;
+}
+button {
+  font-size: 1.2em;
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 150px;
+  font-size: 1.2;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 8px;
+  margin-left: 100px auto;
+}
+button:hover {
+  background-color: orangered;
+  color: #fffae1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
